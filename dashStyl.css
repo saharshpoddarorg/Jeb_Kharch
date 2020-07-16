@@ -1,0 +1,197 @@
+body{
+    background: url('./assets/Economy-029-768x432.jpg') repeat 0 0;
+    background-size: cover;
+    
+}
+
+#money-slider{
+    align-items: center;
+    justify-content: center;
+    padding: 11%;
+    text-align: center;
+   
+    
+}
+#money-slider-line{
+    display:flex;
+    left: 200px;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#money-slider #top{
+    background-color: rgb(228, 215, 42);
+    color: red;
+    width: 38%;
+    margin: auto;
+    padding-bottom: 0.5%;
+    height: 33px;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0px 0 15px #4C4B4B;
+    
+}
+#money-slider #top:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 38%;
+    margin: auto;
+    padding-bottom: 0.5%;
+    height: 220px;
+}
+#money-slider #center-box{
+    background-color: black;
+    color: whitesmoke;
+    font-family: fantasy;
+    padding: 6%;
+}
+h1{
+    padding-top: 15%;
+    align-items: center;
+}
+#money-slider #left{
+    background-color: rgb(15, 15, 228);
+    color: rgb(241, 11, 192);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: 6%;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 1px 8px #4C4B4B;
+}
+#money-slider #left:hover{
+    background-color: rgb(156, 188, 224);
+    writing-mode: horizontal-tb;
+    width: 220px;
+    overflow: hidden;
+    padding-top: 5%;
+    align-content: center;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#money-slider #right{
+    background-color: rgb(21, 172, 21);
+    color: rgb(15, 15, 228);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: 6%;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 0 8px 0 #4C4B4B;
+}
+#money-slider #right:hover{
+    background-color: palegreen;
+    writing-mode: horizontal-tb;
+    width: 220px;
+    overflow: hidden;
+    padding-top: 5%;
+    align-content: center;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#money-slider #bottom{
+    background-color: red;
+    color: yellow;
+    width: 38%;
+    margin: auto;
+    height: 40px;
+    overflow: hidden;
+    padding-bottom: 0.5%;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0px 0 15px #4C4B4B;
+}
+#money-slider #bottom:hover{
+    background-color: rgb(236, 53, 29);
+    width: 38%;
+    margin: auto;
+    height: 200px;
+    overflow: hidden;
+    padding-bottom: 0.5%;
+}
+#navigation{
+    margin-left: -48px;
+    margin-top: -16px;
+}
+#navigation #nav-list{
+    display: flex;
+    flex-direction: row;
+    width: 98.3%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+   
+}
+#navigation #nav-list li{
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    text-align: center;
+    padding-top: 1.5%;
+    
+}
+#navigation #nav-list li#one{
+    width: calc(2/5*100%);
+    background-color: darkblue;
+    border-right: 5px solid #0A3D62;
+    transition: ease-in-out 0.6s;
+}
+#navigation #nav-list li#one:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #192A56;
+    opacity: 1;
+}
+
+#navigation #nav-list li#one a:hover{
+    font-weight: bold;
+}
+#navigation #nav-list li#two{
+    width: calc(2/5*100%);
+    border-right: 5px solid darkblue;
+    background-color: #0A3D62;
+    transition: ease-in-out 0.6s;
+}
+#navigation #nav-list li#two:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #192A56; 
+    opacity: 1;
+}
+
+#navigation #nav-list li#two a:hover{
+    font-weight: bold;
+}
+#navigation #nav-list li#three{
+    background-color: #BA2F16;
+    width: calc(1/5*100%);
+    transition: ease-in-out 0.6s;
+}
+#navigation #nav-list li#three:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: darkred;
+    opacity: 1;
+}
+#navigation #nav-list li#three a:hover{
+    font-weight: bold;
+}
+#navigation #nav-list li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+button#billy{
+    background-color: whitesmoke;
+    color: black;
+    padding:1%;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 8px 16px #4C4B4B;
+    
+}
+button#billy:hover{
+    background-color: rgb(247, 175, 43);
+    transition: linear 0.5s;
+}

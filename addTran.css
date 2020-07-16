@@ -1,0 +1,43 @@
+body{
+    background: url(./assets/Economy-029-768x432.jpg) repeat 0 0;
+    background-size: cover;
+    padding-top: 4%;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 2%;
+}
+div.container{
+    padding-top: 8%;
+    padding-bottom: 10%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid gray;
+    
+}
+div.container input{
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+div.container #add #addS, div.container #delete #delS{
+    width: 160px;
+    height: 50px;
+    background-color: indigo;
+    color: lavender;
+    margin-top: 10px ;
+    font-size: medium;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+div.container #add #addS:hover{
+    background-color: darkmagenta;
+}
+div.container #delete #delS:hover{
+    background-color: darkmagenta;
+}

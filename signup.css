@@ -1,0 +1,49 @@
+body{
+    background:url(./assets/Economy-029-768x432.jpg) repeat 0 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+}
+div.log{
+  background-color: white;  
+  width: 720px;
+  padding: 30px;
+  border: 5px solid gray;
+  margin: 15px;
+  display: inline-block;
+  text-align: left;
+}
+h1{
+    text-align: center;
+    color: #2F363F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #2F363F;
+    color: whitesmoke;
+  }
+  
+  p#for{
+      color: blue;
+  }
+  p#new{
+      color: blue;
+      text-align: center;
+  }
